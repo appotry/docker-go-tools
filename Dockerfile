@@ -14,7 +14,6 @@ RUN apk --no-cache add git mercurial gcc g++               && \
     go env -w GOPROXY=https://goproxy.cn,direct
     
 RUN go get -u -buildmode=exe -ldflags '-s -w'               \
-    
       golang.org/x/tools/cmd/benchcmp                       \
       golang.org/x/tools/cmd/bundle                         \
       golang.org/x/tools/cmd/callgraph                      \
