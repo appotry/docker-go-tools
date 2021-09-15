@@ -33,7 +33,6 @@ RUN go get -u -buildmode=exe -ldflags '-s -w'               \
       golang.org/x/tools/cmd/ssadump                        \
       golang.org/x/tools/cmd/stress                         \
       golang.org/x/tools/cmd/stringer                       \
-      golang.org/x/tools/cmd/tip                            \
       golang.org/x/tools/refactor/eg                        \
       golang.org/x/tools/refactor/importgraph               \
       golang.org/x/tools/refactor/rename                    \
