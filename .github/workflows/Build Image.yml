@@ -50,5 +50,5 @@ jobs:
           platforms: linux/amd64,linux/arm/v7,linux/arm64
           push: true
           tags: |
-            bloodstar/drop-in:stable-${{ steps.set-version.outputs.version }}
-            bloodstar/drop-in:latest
+            bloodstar/go-tools:stable-${{ steps.set-version.outputs.version }}
+            bloodstar/go-tools:latest
