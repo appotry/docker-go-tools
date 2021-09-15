@@ -44,8 +44,8 @@ RUN go get -u -buildmode=exe -ldflags '-s -w'               \
       golang.org/x/lint \
       github.com/jstemmer/gotags                            \
       github.com/dougm/goflymake                            \
-      github.com/golang/mock/mockgen                        \
-      github.com/alecthomas/gometalinter                 
+      github.com/golang/mock/mockgen                        
+#      github.com/alecthomas/gometalinter                 
 
 RUN gometalinter --install --update                      && \
       
