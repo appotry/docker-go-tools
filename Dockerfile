@@ -10,9 +10,9 @@ ENV PATH $PATH:$GOBIN:$GOPATH/bin
 RUN apk --no-cache add git mercurial gcc g++               && \
     apk --update add go --update-cache --repository         \
       http://dl-3.alpinelinux.org/alpine/edge/community  && \
-    mkdir -p /home/developer/workspace/bin               && \
+    mkdir -p /home/developer/workspace/bin 
     
-    go get -u -buildmode=exe -ldflags '-s -w'               \
+RUN go get -u -buildmode=exe -ldflags '-s -w'               \
     
       golang.org/x/tools/cmd/benchcmp                       \
       golang.org/x/tools/cmd/bundle                         \
