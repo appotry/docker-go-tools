@@ -1,6 +1,6 @@
-FROM jare/alpine:latest
+FROM alpine:latest
 
-MAINTAINER JAremko <w3techplaygound@gmail.com>
+MAINTAINER andy <andycrusoe@gmail.com>
 
 ENV GOPATH /home/developer/workspace
 ENV GOROOT /usr/lib/go
