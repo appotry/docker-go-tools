@@ -48,7 +48,6 @@ RUN go get -u -buildmode=exe -ldflags '-s -w'               \
 #      github.com/alecthomas/gometalinter                 
 
 RUN gometalinter --install --update                      && \
-      
     apk del git mercurial gcc                            && \
     find / -name ".git" -prune -exec rm -rf "{}" \;      && \
     rm -rf /var/cache/apk/* /home/developer/workspace/*
