@@ -45,9 +45,9 @@ RUN go get -u -buildmode=exe -ldflags '-s -w'               \
       github.com/jstemmer/gotags                            \
       github.com/dougm/goflymake                            \
       github.com/golang/mock/mockgen                        \
-      github.com/alecthomas/gometalinter                 && \
+      github.com/alecthomas/gometalinter                 
 
-    gometalinter --install --update                      && \
+RUN gometalinter --install --update                      && \
       
     apk del git mercurial gcc                            && \
     find / -name ".git" -prune -exec rm -rf "{}" \;      && \
