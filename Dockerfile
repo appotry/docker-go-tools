@@ -38,7 +38,6 @@ RUN go get -u -buildmode=exe -ldflags '-s -w'               \
       golang.org/x/tools/refactor/importgraph               \
       golang.org/x/tools/refactor/rename                    \
       golang.org/x/tools/refactor/satisfy                   \
-
       github.com/rogpeppe/godef                             \
       github.com/tools/godep                                \
       github.com/nsf/gocode                                 \
