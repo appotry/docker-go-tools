@@ -41,7 +41,7 @@ RUN go get -u -buildmode=exe -ldflags '-s -w'               \
       github.com/tools/godep                                \
       github.com/nsf/gocode                                 \
       github.com/kisielk/errcheck                           \
-      github.com/golang/lint/golint                         \
+      golang.org/x/lint \
       github.com/jstemmer/gotags                            \
       github.com/dougm/goflymake                            \
       github.com/golang/mock/mockgen                        \
