@@ -5,4 +5,4 @@
     - Make an alias:
      `alias gofmt='docker run -ti --rm -v $(pwd):/home/developer/workspace bloodstar/go-tools gofmt'`
     - Have fun!  `gofmt hello.go`
-  - **Also you can use this image as a docker volume. [See `jare/vim-bundle`](https://registry.hub.docker.com/u/bloodstar/vim/)**
+  - **Also you can use this image as a docker volume. [See `bloodstar/vim`](https://registry.hub.docker.com/u/bloodstar/vim/)**
